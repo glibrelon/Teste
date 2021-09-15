@@ -18,4 +18,10 @@ cursor.execute(sql)
 #Retrieving the list of databases
 print("List of databases: ")
 cursor.execute("SHOW DATABASES")
+
+
+#teste comentario
+
+
+
 print(cursor.fetchall())
